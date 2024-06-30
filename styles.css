@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.todo-item.done .todo-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo-text {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.edit-input {
+    flex-grow: 1;
+}
+
+.buttons {
+    margin-left: 10px;
+}
